@@ -2,9 +2,6 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = props => {
-  if (true) {
-    throw new Error("No");
-  }
   return (
     <div>
       {props.robots.map(robot => (
